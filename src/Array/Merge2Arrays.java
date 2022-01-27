@@ -7,7 +7,7 @@ public class Merge2Arrays {
 		int brr [] = {53, 26, 23, 15, 18, 13};
 		int j =0;
 		int crr [] = new int[arr.length+brr.length];
-		System.out.println(crr.length);
+		//System.out.println(crr.length);
 		
 		for (int i = 0; i < arr.length; i++) {
 			crr[j] = arr[i];
